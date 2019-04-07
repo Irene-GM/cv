@@ -64,9 +64,7 @@ education:
     - degree: PhD in Spatial Analytics (September 2019)
       university: ITC - University of Twente (the Netherlands)
       time: 2014 - 2019
-      details: |
-
-      Thesis title: Making sense of volunteer observations: a data-driven approach to support Public Health applications
+      details: | Thesis title: Making sense of volunteer observations: a data-driven approach to support Public Health applications
       - Applications of machine learning
       - Environmental modelling and public Health
       - Citizen science and volunteered geographic information (VGI)
@@ -75,8 +73,7 @@ education:
     - degree: MSc in Geospatial Technologies
       university: University Jaume I (Spain), University of Muenster (Germany)
       time: 2009 - 2011
-      details: |
-        Thesis title: Adding SOS Core & Transactional profiles support to a web thin client.
+      details: | Thesis title: Adding SOS Core & Transactional profiles support to a web thin client.
         - Sensor webs
         - Sensor Observation Service
         - Spatial databases and web services
@@ -85,8 +82,7 @@ education:
     - degree: BSc in Computer Science
       university: University Jaume I (Spain)
       time: 2002 - 2009
-      details: |
-        Thesis title: Deployment of a Sensor Observation Service
+      details: | Thesis title: Deployment of a Sensor Observation Service
         - Sensor Webs
         - Sensor Observation services
         - Spatial databases
