@@ -4,21 +4,22 @@
 
 sidebar:
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Irene Garcia-Marti
+    name: |
+      Irene <br> Garcia-Marti
     tagline: PhD Data Scientist
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@irenegarciamarti.com
-    website: irenegarciamarti.com 
-    linkedin: linkedin.com/in/irene-garcia-marti-704a3a2a/
-    github: github.com/Irene-GM
+    email: a
+    website: e
+    linkedin: i
+    github: o
     gitlab:
     bitbucket:
-    twitter: '@iamgin'
+    twitter: u
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -46,89 +47,97 @@ sidebar:
       - item: Cooking
         link:
 
-# career-profile:
-#     title: Career Profile
-#     summary: |
-#
-#       Computer Science engineer with a MSc in Geoinformatics keen on solving complex scientific problems through the spatio-temporal
-#       analysis of GIS data collections. My professional career has naturally evolved from GIS software developer to data
-#       scientist. Currently, I have five years of specialization in data analysis and machine learning in the fields of climate
-#       services research and environmental modelling. In the past I have worked in projects related with weather sensor data,
-#       smart cities, and food security. I have a broad experience analyzing GIS data and managing crowdsourced data, spatial databases,
-#       sensor webs, and web services. Having good communication skills and a good understanding of computers and algorithms, makes
-#       me an effective presenter, capable of conveying complex results to all audiences.
+career-profile:
+    title: Career Profile
+    summary: |
+
+      Computer Science engineer with a MSc in Geoinformatics keen on solving complex scientific problems through the spatio-temporal
+      analysis of GIS data collections. My professional career has naturally evolved from GIS software developer to data
+      scientist. Currently, I have five years of specialization in data analysis and machine learning in the fields of climate
+      services research and environmental modelling. In the past I have worked in projects related with weather sensor data,
+      smart cities, and food security. I have a broad experience analyzing GIS data and managing crowdsourced data, spatial databases,
+      sensor webs, and web services. Having good communication skills and a good understanding of computers and algorithms, makes
+      me an effective presenter, capable of conveying complex results to all audiences.
 
 
-# education:
-    # - degree: PhD in Spatial Analytics (September 2019)
-    #   university: ITC - University of Twente (the Netherlands)
-    #   time: 2014 - 2019
-    #   details: | Thesis title: Making sense of volunteer observations: a data-driven approach to support Public Health applications
-    #   - Applications of machine learning
-    #   - Environmental modelling and public Health
-    #   - Citizen science and volunteered geographic information (VGI)
-    #   - Geographic Information Science (GIS)
-    #
-    # - degree: MSc in Geospatial Technologies
-    #   university: University Jaume I (Spain), University of Muenster (Germany)
-    #   time: 2009 - 2011
+education:
+    - degree: PhD in Geospatial Analytics
+      university: ITC - University of Twente (the Netherlands)
+      time: 2014 - 2019
+      # details: | Making sense of volunteer observations a data-driven approach to support Public Health applications
+      # - Applications of machine learning
+      # - Environmental modelling and public Health
+      # - Citizen science and volunteered geographic information (VGI)
+      # - Geographic Information Science (GIS)
+
+    - degree: MSc in Geospatial Technologies
+      university: University Jaume I (Spain), University of Muenster (Germany)
+      time: 2009 - 2011
     #   details: | Thesis title: Adding SOS Core & Transactional profiles support to a web thin client.
     #     - Sensor webs
     #     - Sensor Observation Service
     #     - Spatial databases and web services
     #     - Geographic information science (GIS)
     #
-    # - degree: BSc in Computer Science
-    #   university: University Jaume I (Spain)
-    #   time: 2002 - 2009
+    - degree: BSc in Computer Science
+      university: University Jaume I (Spain)
+      time: 2002 - 2009
     #   details: | Thesis title: Deployment of a Sensor Observation Service
     #     - Sensor Webs
     #     - Sensor Observation services
     #     - Spatial databases
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+    - role: Data Scientist
+      time: Feb 2018 - Present
+      company: Royal Netherlands Meteorological Institute (KNMI)
+      # details: |
+      #   Describe your role here lorem ipsum dolor sit amet, consectetuer
+      #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      #   Cum sociis natoque penatibus et magnis dis parturient montes,
+      #   nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      #   pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+      #   enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+      #   error sit voluptatem accusantium doloremque laudantium, totam rem
+      #   aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+      #   architecto beatae vitae dicta sunt explicabo.
+      #
+      #     - Bullet point
+      #     - Bullet point
 
-          - Bullet point
-          - Bullet point
+    - role: Data Scientist & Researcher
+      time: Feb 2014 - Jan 2018
+      company: ITC - University of Twente
+      # details: |
+      #   Describe your role here lorem ipsum dolor sit amet, consectetuer
+      #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      #   Cum sociis natoque penatibus et magnis dis parturient montes,
+      #   nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      #   pellentesque eu, pretium quis, sem.
+      #
+      #     - Bullet point
+      #     - Bullet point
 
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+    - role: Intern Product Management
+      time: May 2013 - Aug 2013
+      company: Esri
+      # details: |
+      #   Describe your role here lorem ipsum dolor sit amet, consectetuer
+      #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      #   Cum sociis natoque penatibus et magnis dis parturient montes,
+      #   nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      #   pellentesque eu, pretium quis, sem.
+      #
+      #     - Bullet point
+      #     - Bullet point
 
-          - Bullet point
-          - Bullet point
+    - role: GIS Consultant
+      time: Oct 2012 - Apr 2013
+      company: UN World Food Programme
 
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+    - role: Research Assistant
+      time: Mar 2011 - Dec 2013
+      company: Geotec research group, University Jaume I
 
 projects:
     title: Projects
