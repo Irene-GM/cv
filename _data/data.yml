@@ -13,13 +13,13 @@ sidebar:
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: a
-    website: e
-    linkedin: i
-    github: o
+    email: info@irenegarciamarti.commodo
+    website: http://irenegarciamarti.com
+    linkedin: irene-garcia-marti-704a3a2a/
+    github: Irene-GM
     gitlab:
     bitbucket:
-    twitter: u
+    twitter: iamgin
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe

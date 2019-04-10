@@ -86,6 +86,9 @@ p {
             vertical-align: middle;
         }
         li {
+            float: left;
+            padding-right: 5px;
+            padding-left: 5px;
             margin-bottom: 15px;
             &:last-child {
                 margin-bottom: 0;

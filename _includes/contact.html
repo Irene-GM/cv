@@ -2,8 +2,8 @@
   <ul class="list-unstyled contact-list">
 
     {% if sidebar.email %}
-    <li class="email"><i class="fas fa-envelope"></i>
-      <a href="mailto:{{ sidebar.email }}">{{ sidebar.email }}</a>
+    <li class="email">
+        <a href="mailto:{{ sidebar.email }}"><i class="fas fa-envelope"></i> </a>
     </li>
     {% endif %}
 
@@ -14,20 +14,20 @@
     {% endif %}
 
     {% if sidebar.website %}
-    <li class="website"><i class="fas fa-globe-americas"></i>
-      <a href="http://{{ sidebar.website }}" target="_blank">{{ sidebar.website }}</a>
+    <li class="website">
+      <a href="website:{{ sidebar.website }}"><i class="fas fa-globe-americas"></i> </a>
     </li>
     {% endif %}
 
     {% if sidebar.linkedin %}
-    <li class="linkedin"><i class="fab fa-linkedin"></i>
-      <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank">{{ sidebar.linkedin }}</a>
+    <li class="linkedin">
+      <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank"><i class="fab fa-linkedin"></i></a>
     </li>
     {% endif %}
 
     {% if sidebar.github %}
-    <li class="github"><i class="fab fa-github"></i>
-      <a href="http://github.com/{{ sidebar.github }}" target="_blank">{{ sidebar.github }}</a>
+    <li class="github">
+      <a href="http://github.com/{{ sidebar.github }}" target="_blank"><i class="fab fa-github"></i></a>
     </li>
     {% endif %}
 
@@ -44,8 +44,8 @@
     {% endif %}
 
     {% if sidebar.twitter %}
-    <li class="twitter"><i class="fab fa-twitter"></i>
-      <a href="https://twitter.com/{{ sidebar.twitter }}" target="_blank">{{ sidebar.twitter }}</a>
+    <li class="twitter">
+      <a href="https://twitter.com/{{ sidebar.twitter }}" target="_blank"><i class="fab fa-twitter"></i></a>
     </li>
     {% endif %}
 
