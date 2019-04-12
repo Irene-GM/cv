@@ -1,0 +1,18 @@
+{% assign expertise = site.data.data.sidebar.expertise %}
+<div class="expertise-container container-block">
+
+  <h2 class="container-block-title">
+    Expertise
+  </h2>
+
+  <ul class="list-unstyled expertise-list">
+    {% for exp in expertise %}
+      {% if exp.link %}
+      <li><a href="{{ exp.link }}">{{ exp.item }}</a></li>
+      {% else %}
+      <li>{{ exp.item }}</li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+</div><!--//expertise-->

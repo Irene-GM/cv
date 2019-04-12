@@ -82,7 +82,7 @@ p {
     .contact-list {
         .fas, .fab {
             margin-right: 5px;
-            font-size: 18px;
+            font-size: 25px;
             vertical-align: middle;
         }
         li {
@@ -136,6 +136,16 @@ p {
     }
 
     .languages-list {
+        margin-bottom: 0;
+        li {
+            margin-bottom: 10px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .expertise-list {
         margin-bottom: 0;
         li {
             margin-bottom: 10px;

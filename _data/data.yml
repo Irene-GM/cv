@@ -13,8 +13,8 @@ sidebar:
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: info@irenegarciamarti.commodo
-    website: http://irenegarciamarti.com
+    email: info@irenegarciamarti.com
+    website: irenegarciamarti.com
     linkedin: irene-garcia-marti-704a3a2a/
     github: Irene-GM
     gitlab:
@@ -23,6 +23,16 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
+
+    expertise:
+      - item: Machine learning
+        link:
+      - item: Environmental modelling
+        link:
+      - item: Climate services research
+        link:
+      - item: Health geographics
+        link:
 
     languages:
       - idiom: English
@@ -210,4 +220,4 @@ skills:
         level: 60%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Template designed by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
